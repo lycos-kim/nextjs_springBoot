@@ -1,0 +1,46 @@
+# ==========================================
+# 1. Backend (Spring Boot / Java) 관련
+# ==========================================
+backend/target/
+backend/build/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.gradle/
+backend/bin/
+
+# IDE 관련 (IntelliJ, Eclipse)
+backend/.idea/
+backend/*.iml
+backend/.settings/
+backend/.classpath
+backend/.project
+
+# ==========================================
+# 2. Frontend (Next.js / Node) 관련
+# ==========================================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.DS_Store
+
+# 환경 변수 파일 (보안상 절대 올리면 안 됨)
+frontend/.env*.local
+
+# 로그 파일
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ==========================================
+# 3. 공통 및 인프라 (Docker, OS)
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# Docker 관련 (로컬 데이터 저장용 폴더가 있다면 제외)
+# docker-data/ 
+
+# VS Code 설정
+.vscode/
